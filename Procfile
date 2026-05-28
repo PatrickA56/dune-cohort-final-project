@@ -1,0 +1,1 @@
+web: gunicorn patakinsmart.wsgi --log-file -
