@@ -1,0 +1,913 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$8leS8O5ultGApcajPf638X$Zzzi/ho4kN5ocd9GovVD3YFNyC2aCGgCW/Yo/VWW7eA=",
+    "last_login": "2026-05-28T11:01:19.691Z",
+    "is_superuser": true,
+    "username": "Olalekan",
+    "first_name": "",
+    "last_name": "",
+    "email": "gloriousrock56@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-23T12:24:25.020Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jj605xw6nwjyaa5vytf9gvni9ocjwwpy",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAUBe_C2hAQLMWl-56BvA8fqRqalHZlvLtt0oVu38y8twhYlxLWxnMYk7gKLU6_GyE-ue4gPVDvk4xTXeaR5K7IgzY5TIlft8P9OyhoZatjRjQqclL-Qsp3vbHgMztFPWJycJlUNmTQESyMh_ZZOau9tXkDEJ8vDZw4qw:1wSYUJ:z4ZO2V53MXMJUFVktSN2ddTXeoOTOO95QgNzeGzXbj0",
+    "expire_date": "2026-06-11T11:01:19.700Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Foodstuffs",
+    "description": "This is for all foodstuffs"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Fresh Produce",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Bakery",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Dairy Foods",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Meat, Poultry & Seafood",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Beverages & Snacks",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "Pantry Foods",
+    "description": ""
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "Household & Personal Care",
+    "description": ""
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Apple",
+    "price": 200,
+    "stock": 0,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Avocado",
+    "price": 300,
+    "stock": 0,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Tomatoes",
+    "price": 500,
+    "stock": 450,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Toasted Bread",
+    "price": 2500,
+    "stock": 89,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Meat Pie",
+    "price": 1200,
+    "stock": 200,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Wedding Cakes",
+    "price": 25000,
+    "stock": 35,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Butter",
+    "price": 8500,
+    "stock": 45,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Yogurt",
+    "price": 6500,
+    "stock": 78,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Cheese",
+    "price": 9500,
+    "stock": 48,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Chicken",
+    "price": 12500,
+    "stock": 67,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 5
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Fish",
+    "price": 8000,
+    "stock": 58,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 5
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Pork Meat",
+    "price": 6500,
+    "stock": 49,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 5
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Milo",
+    "price": 8800,
+    "stock": 26,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 6
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Bournvita",
+    "price": 14,
+    "stock": 7500,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 6
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Golden Morn",
+    "price": 3500,
+    "stock": 65,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 6
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Rice",
+    "price": 75000,
+    "stock": 32,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 7
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Beans",
+    "price": 95000,
+    "stock": 20,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 7
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Flour",
+    "price": 45000,
+    "stock": 19,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 7
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Toothpaste",
+    "price": 2500,
+    "stock": 85,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 8
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Sanitary Pads",
+    "price": 8500,
+    "stock": 42,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 8
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "Detergent Soap",
+    "price": 9300,
+    "stock": 30,
+    "is_available": true,
+    "created_at": "2026-05-23",
+    "category": 8
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "Carrots",
+    "price": 250,
+    "stock": 85,
+    "is_available": true,
+    "created_at": "2026-05-28",
+    "category": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-23T12:36:49.877Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "Foodstuffs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-23T12:38:46.768Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "Fresh Produce",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-23T12:39:16.085Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-23T12:39:58.582Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Avocado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-23T12:53:10.498Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Tomatoe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-23T12:53:32.068Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "Bakery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-23T12:55:55.964Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Toasted Bread",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-23T12:56:32.679Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Tomatoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-23T13:27:56.489Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Meat Pie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-23T13:31:47.789Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Wedding Cakes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-23T13:33:13.823Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "4",
+    "object_repr": "Dairy Foods",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-23T13:34:42.482Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Butter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-23T13:36:04.486Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Yogurt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-23T13:38:59.467Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Cheese",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-23T13:40:18.730Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "Poultry & Seafood",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-23T13:41:46.146Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Chicken",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-23T13:44:51.803Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Fish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-23T13:47:08.735Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "Meat, Poultry & Seafood",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-23T13:48:15.088Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Pork Meat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-23T13:51:09.566Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "6",
+    "object_repr": "Beverages & Snacks",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-23T13:52:35.392Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Milo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-23T13:54:48.113Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Bournvita",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-23T13:55:43.586Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Golden Morn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-23T13:56:51.416Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "Pantry Foods",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-23T13:57:43.201Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Rice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-23T13:58:28.957Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Beans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-23T14:00:20.195Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Flour",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-23T14:02:08.986Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "category"
+    ],
+    "object_id": "8",
+    "object_repr": "Household & Personal Care",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-23T14:03:49.242Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Toothpaste",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-23T14:05:43.909Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "20",
+    "object_repr": "Sanitary Pads",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-23T14:07:32.556Z",
+    "user": [
+      "Olalekan"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "21",
+    "object_repr": "Detergent Soap",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
