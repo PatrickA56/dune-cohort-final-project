@@ -275,11 +275,15 @@
                     {% if request.user.is_authenticated %}
                         <span>Hello, <strong>{{ request.user.username }}</strong></span>
                         {% if request.user.is_staff %}
-                            <a href="{% url 'product_create' %}">➕ Add Product</a>
+                            <a href="/admin/">Admin Panel</a>
                         {% endif %}
-                        <a href="/admin/">Admin</a>
+                        <form method="POST" action="{% url 'logout' %}" style="display: inline;">
+                            {% csrf_token %}
+                            <button type="submit" style="background: none; border: none; color: white; cursor: pointer; padding: 0.5rem 1rem; border-radius: 0.375rem; background-color: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); transition: all 0.3s; font-size: 0.9rem;">Logout</button>
+                        </form>
                     {% else %}
-                        <a href="/admin/">Login</a>
+                        <a href="{% url 'login' %}">Login</a>
+                        <a href="{% url 'register' %}">Register</a>
                     {% endif %}
                 </div>
             </div>
